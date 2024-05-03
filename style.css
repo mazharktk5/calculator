@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #585351; 
+}
+.calculator {
+    width: 300px; 
+    border: 2px solid #333; 
+    border-radius: 14px;
+    background-color:  #222; 
+    box-shadow: 1px 0px 11px 4px #222;
+    padding: 10px;
+    
+}
+.screen {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color:#75a784;
+    text-align: right;
+    padding: 3px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.button {
+flex: 1;
+padding: 14px; 
+font-size: 24px; */
+ margin: 5px;
+text-align: center;
+cursor: pointer;
+border: 2px solid 422;
+border-radius: 8px;
+background-color: #444; 
+color: #fff;
+/* margin-right: 18px; */
+margin:10px ; 
+transition: background-color 0.3s, box-shadow 0.3s;
+box-shadow: 0px 4px 0px 5px #444, inset 0px 4px 10px #222;
+/* box-shadow: 0 4px 0 rgba(255, 255, 255, 0.1) inset, 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+/* flex: 1;
+padding: 14px; 
+font-size: 24px;
+margin: 5px;
+text-align: center;
+cursor: pointer;
+border: 1px solid #333;
+border-radius: 5px;
+background: linear-gradient(to left, #7e7878, #302e2e);
+color: #fff;
+margin-right: 18px;
+/* transition: background-color 0.3s, box-shadow 0.3s; */
+/* box-shadow: 2px 3px 0px 6px #2e2d2d; }  */
+}
+/* border-radius: 43px;
+background: linear-gradient(315deg, #2a2929, #232121);
+box-shadow:  -8px -8px 5px lightda,
+         8px 8px 5px #4b4848; */
+         /* border-radius: 20px;
+background: #2f2d2d;
+box-shadow: 8px 9px 0px #201F20, inset -8px -8px 5px #4b4848;
+} */
+
+.button:hover {
+background-color: #444;
+box-shadow: 0 2px #000; 
+}
+
+.button:active {
+box-shadow: none; 
+}
+.button:hover {
+    background-color: #333;
+}
+.button.clear {
+    background-color: #f44336;
+}
+.button.equal {
+    background-color: #2196F3;
+    box-shadow: 1px 3px 0px 5px #2196F3, inset 0px 0px 6px #222;
+    grid-row: span 2;
+}
+.button.clear{
+    width: 20px;
+}
+.button.clear{
+    background-color: #f44336;
+    box-shadow: 1px 3px 0px 5px #f44336, inset 0px 0px 6px #222;
+    
+}
